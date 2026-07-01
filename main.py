@@ -11,7 +11,10 @@ from openpyxl import load_workbook
 
 TOKEN = "8953739174:AAHG2U4icxh_xs-8Z2v_tH4ey_40T8qI5DI"
 
-ALLOWED_USERS = [5528895597, 7489557412]
+ALLOWED_USERS = [
+    5528895597, 
+    7489557412,
+]
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
