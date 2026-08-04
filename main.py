@@ -9,7 +9,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from openpyxl import load_workbook
 
 import os
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8953739174:AAHG2U4icxh_xs-8Z2v_tH4ey_40T8qI5DI")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8953739174:AAFDk5A6EXbKRsgAs3aGYnnsVHjkcTVs3zU")
 
 ALLOWED_USERS = [
     5528895597, 
