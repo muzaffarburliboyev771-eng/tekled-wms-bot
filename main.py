@@ -262,6 +262,7 @@ async def handler(msg: types.Message):
     conn.close()
 
 async def main():
+    await bot.delete_webhook()
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
