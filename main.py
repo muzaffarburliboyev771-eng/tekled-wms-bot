@@ -19,7 +19,7 @@ ALLOWED_USERS = [
     8686771919,
     1012105412,
     8805541288,
-]
+  ]
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
